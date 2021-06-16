@@ -1,0 +1,33 @@
+# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T05_WhileLoopTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity T05_WhileLoopTb
+# -- Compiling architecture sim of T05_WhileLoopTb
+# 
+# 
+vsim -gui work.t05_whilelooptb
+# vsim -gui work.t05_whilelooptb 
+# Start time: 15:14:28 on Jun 16,2021
+# Loading std.standard
+# Loading work.t05_whilelooptb(sim)
+run
+# ** Note: i =0
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i =1
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i =2
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i =3
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i =4
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i =5
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i =6
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i =7
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i =8
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: i =9
+#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb

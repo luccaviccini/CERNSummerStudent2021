@@ -1,0 +1,196 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/Program_Files/Quartus20
+Et01_helloworldtb
+Z0 w1623855401
+!i122 1
+Z1 dC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/Project1
+Z2 8C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T01_helloworldTB.vhd
+Z3 FC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T01_helloworldTB.vhd
+l0
+L1 1
+VM_JeA<ndEIfbT0nYkFl=<0
+!s100 jJAO00`iS79Z?io0VWY1D1
+Z4 OV;C;2020.1;71
+32
+Z5 !s110 1623855629
+!i10b 1
+Z6 !s108 1623855628.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T01_helloworldTB.vhd|
+Z8 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T01_helloworldTB.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Asim
+DEx4 work 16 t01_helloworldtb 0 22 M_JeA<ndEIfbT0nYkFl=<0
+!i122 1
+l5
+L4 13
+V5@ah=?8Lh^]l4^S28_C8U0
+!s100 8BfPU^^@a9POJ9Ok@8Yo_3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Et02_waitfortb
+Z11 w1623856602
+!i122 7
+R1
+Z12 8C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T02_WaitForTb.vhd
+Z13 FC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T02_WaitForTb.vhd
+l0
+L1 1
+VBC9>QHWY?`E8EoR4e@@`K3
+!s100 M^HD1>EY3_QI0oP7bm]nl2
+R4
+32
+Z14 !s110 1623856605
+!i10b 1
+Z15 !s108 1623856604.000000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T02_WaitForTb.vhd|
+Z17 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T02_WaitForTb.vhd|
+!i113 1
+R9
+R10
+Asim
+DEx4 work 13 t02_waitfortb 0 22 BC9>QHWY?`E8EoR4e@@`K3
+!i122 7
+l5
+Z18 L4 16
+V7AKa=2@fF20JJAN^@VDNg2
+!s100 `Y^2X6=F48CBeP4HiE?>T3
+R4
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R9
+R10
+Et03_looptb
+Z19 w1623866651
+!i122 14
+R1
+Z20 8C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T04_ForLoopTb.vhd
+Z21 FC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T04_ForLoopTb.vhd
+l0
+L1 1
+Vc]<V`NZHIc;KI>;S>21@[3
+!s100 =8[oh4mA;G2@iDOko@?mR3
+R4
+32
+Z22 !s110 1623866858
+!i10b 1
+Z23 !s108 1623866858.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T04_ForLoopTb.vhd|
+Z25 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T04_ForLoopTb.vhd|
+!i113 1
+R9
+R10
+Asim
+DEx4 work 10 t03_looptb 0 22 c]<V`NZHIc;KI>;S>21@[3
+!i122 14
+l5
+R18
+V92CK;U8LDbfW73W`WQ7OV3
+!s100 bk;C;hkzN8zFL]EM7g4X72
+R4
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R9
+R10
+Et04_forlooptb
+Z26 w1623866897
+!i122 16
+R1
+R20
+R21
+l0
+L1 1
+VR`W6YCm[9k4<E]]j7f]`C0
+!s100 A:1E:bE8z=H4HaAE[gZlW0
+R4
+32
+Z27 !s110 1623866905
+!i10b 1
+Z28 !s108 1623866904.000000
+R24
+R25
+!i113 1
+R9
+R10
+Asim
+DEx4 work 13 t04_forlooptb 0 22 R`W6YCm[9k4<E]]j7f]`C0
+!i122 16
+l5
+R18
+V36QC]^B`3hLdc]j<Mf4Kg2
+!s100 m9h`JABVklH4=czf4KIH10
+R4
+32
+R27
+!i10b 1
+R28
+R24
+R25
+!i113 1
+R9
+R10
+Et05_whilelooptb
+Z29 w1623867187
+!i122 17
+R1
+Z30 8C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T05_WhileLoopTb.vhd
+Z31 FC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T05_WhileLoopTb.vhd
+l0
+L1 1
+V^[@cMAP9AGI1;@9beJ[?F3
+!s100 _SP8YKZcAlJ]e;S;7ZAa@0
+R4
+32
+Z32 !s110 1623867255
+!i10b 1
+Z33 !s108 1623867255.000000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T05_WhileLoopTb.vhd|
+!s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T05_WhileLoopTb.vhd|
+!i113 1
+R9
+R10
+Asim
+DEx4 work 15 t05_whilelooptb 0 22 ^[@cMAP9AGI1;@9beJ[?F3
+!i122 17
+l5
+L4 17
+VbffGG`^ahbT1SEX:WhaO:2
+!s100 TG>>mdV1L?kM7_WML42X]3
+R4
+32
+R32
+!i10b 1
+R33
+R34
+Z35 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T05_WhileLoopTb.vhd|
+!i113 1
+R9
+R10
