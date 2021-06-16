@@ -173,7 +173,7 @@ Z32 !s110 1623867255
 !i10b 1
 Z33 !s108 1623867255.000000
 Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T05_WhileLoopTb.vhd|
-!s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T05_WhileLoopTb.vhd|
+Z35 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T05_WhileLoopTb.vhd|
 !i113 1
 R9
 R10
@@ -190,7 +190,44 @@ R32
 !i10b 1
 R33
 R34
-Z35 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T05_WhileLoopTb.vhd|
+R35
+!i113 1
+R9
+R10
+Et06_signaltb
+Z36 w1623870297
+!i122 20
+R1
+Z37 8C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T06_SignalTb.vhd
+Z38 FC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T06_SignalTb.vhd
+l0
+L4 1
+V^fMCn7dbV?bLRN2><>hnW2
+!s100 X@lR=ALfh4Y5MGmc:JL4H1
+R4
+32
+Z39 !s110 1623870301
+!i10b 1
+Z40 !s108 1623870300.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T06_SignalTb.vhd|
+Z42 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T06_SignalTb.vhd|
+!i113 1
+R9
+R10
+Asim
+DEx4 work 12 t06_signaltb 0 22 ^fMCn7dbV?bLRN2><>hnW2
+!i122 20
+l11
+L7 35
+VH:YV=oLYzNF?QUOM@SUhC0
+!s100 =JL90W9SRB[2GGJKN9K3?3
+R4
+32
+R39
+!i10b 1
+R40
+R41
+R42
 !i113 1
 R9
 R10

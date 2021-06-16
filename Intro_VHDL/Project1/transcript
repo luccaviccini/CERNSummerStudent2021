@@ -1,33 +1,401 @@
-# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T05_WhileLoopTb.vhd
+# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T06_SignalTb.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 # -- Loading package STANDARD
-# -- Compiling entity T05_WhileLoopTb
-# -- Compiling architecture sim of T05_WhileLoopTb
+# -- Compiling entity T06_SignalTb
+# -- Compiling architecture sim of T06_SignalTb
 # 
 # 
-vsim -gui work.t05_whilelooptb
-# vsim -gui work.t05_whilelooptb 
-# Start time: 15:14:28 on Jun 16,2021
+vsim -gui work.t06_signaltb
+# vsim -gui work.t06_signaltb 
+# Start time: 15:57:20 on Jun 16,2021
 # Loading std.standard
-# Loading work.t05_whilelooptb(sim)
+# Loading work.t06_signaltb(sim)
 run
-# ** Note: i =0
-#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
-# ** Note: i =1
-#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
-# ** Note: i =2
-#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
-# ** Note: i =3
-#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
-# ** Note: i =4
-#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
-# ** Note: i =5
-#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
-# ** Note: i =6
-#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
-# ** Note: i =7
-#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
-# ** Note: i =8
-#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
-# ** Note: i =9
-#    Time: 0 ps  Iteration: 0  Instance: /t05_whilelooptb
+# ** Note: MyVariable=1, MySignal= 0
+#    Time: 0 ps  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=2, MySignal= 1
+#    Time: 10 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=3, MySignal= 2
+#    Time: 20 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=4, MySignal= 3
+#    Time: 30 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=5, MySignal= 4
+#    Time: 40 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=6, MySignal= 5
+#    Time: 50 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=7, MySignal= 6
+#    Time: 60 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=8, MySignal= 7
+#    Time: 70 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=9, MySignal= 8
+#    Time: 80 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=10, MySignal= 9
+#    Time: 90 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=11, MySignal= 10
+#    Time: 100 ns  Iteration: 0  Instance: /t06_signaltb
+add wave -position insertpoint  \
+sim:/t06_signaltb/MySignal
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Note: MyVariable=1, MySignal= 0
+#    Time: 0 ps  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=2, MySignal= 1
+#    Time: 10 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=3, MySignal= 2
+#    Time: 20 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=4, MySignal= 3
+#    Time: 30 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=5, MySignal= 4
+#    Time: 40 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=6, MySignal= 5
+#    Time: 50 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=7, MySignal= 6
+#    Time: 60 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=8, MySignal= 7
+#    Time: 70 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=9, MySignal= 8
+#    Time: 80 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=10, MySignal= 9
+#    Time: 90 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=11, MySignal= 10
+#    Time: 100 ns  Iteration: 0  Instance: /t06_signaltb
+restart
+run
+# ** Note: MyVariable=1, MySignal= 0
+#    Time: 0 ps  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=2, MySignal= 1
+#    Time: 10 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=3, MySignal= 2
+#    Time: 20 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=4, MySignal= 3
+#    Time: 30 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=5, MySignal= 4
+#    Time: 40 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=6, MySignal= 5
+#    Time: 50 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=7, MySignal= 6
+#    Time: 60 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=8, MySignal= 7
+#    Time: 70 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=9, MySignal= 8
+#    Time: 80 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=10, MySignal= 9
+#    Time: 90 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=11, MySignal= 10
+#    Time: 100 ns  Iteration: 0  Instance: /t06_signaltb
+run
+# ** Note: MyVariable=12, MySignal= 11
+#    Time: 110 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=13, MySignal= 12
+#    Time: 120 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=14, MySignal= 13
+#    Time: 130 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=15, MySignal= 14
+#    Time: 140 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=16, MySignal= 15
+#    Time: 150 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=17, MySignal= 16
+#    Time: 160 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=18, MySignal= 17
+#    Time: 170 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=19, MySignal= 18
+#    Time: 180 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=20, MySignal= 19
+#    Time: 190 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=21, MySignal= 20
+#    Time: 200 ns  Iteration: 0  Instance: /t06_signaltb
+restart
+run
+# ** Note: MyVariable=1, MySignal= 0
+#    Time: 0 ps  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=2, MySignal= 1
+#    Time: 10 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=3, MySignal= 2
+#    Time: 20 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=4, MySignal= 3
+#    Time: 30 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=5, MySignal= 4
+#    Time: 40 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=6, MySignal= 5
+#    Time: 50 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=7, MySignal= 6
+#    Time: 60 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=8, MySignal= 7
+#    Time: 70 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=9, MySignal= 8
+#    Time: 80 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=10, MySignal= 9
+#    Time: 90 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=11, MySignal= 10
+#    Time: 100 ns  Iteration: 0  Instance: /t06_signaltb
+# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T06_SignalTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity T06_SignalTb
+# -- Compiling architecture sim of T06_SignalTb
+# ** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T06_SignalTb.vhd(19): near "MyVar": (vcom-1576) expecting ';'.
+# ** Note: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T06_SignalTb.vhd(41): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T06_SignalTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Compiling entity T06_SignalTb
+# -- Compiling architecture sim of T06_SignalTb
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.t06_signaltb(sim)
+run
+# ** Note: ***** Processes Begin *****
+#    Time: 0 ps  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=1, MySignal= 0
+#    Time: 0 ps  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=2, MySignal= 0
+#    Time: 0 ps  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=2, MySignal= 1
+#    Time: 10 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 10 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=3, MySignal= 1
+#    Time: 10 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=4, MySignal= 1
+#    Time: 10 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=4, MySignal= 2
+#    Time: 20 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 20 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=5, MySignal= 2
+#    Time: 20 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=6, MySignal= 2
+#    Time: 20 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=6, MySignal= 3
+#    Time: 30 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 30 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=7, MySignal= 3
+#    Time: 30 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=8, MySignal= 3
+#    Time: 30 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=8, MySignal= 4
+#    Time: 40 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 40 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=9, MySignal= 4
+#    Time: 40 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=10, MySignal= 4
+#    Time: 40 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=10, MySignal= 5
+#    Time: 50 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 50 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=11, MySignal= 5
+#    Time: 50 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=12, MySignal= 5
+#    Time: 50 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=12, MySignal= 6
+#    Time: 60 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 60 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=13, MySignal= 6
+#    Time: 60 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=14, MySignal= 6
+#    Time: 60 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=14, MySignal= 7
+#    Time: 70 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 70 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=15, MySignal= 7
+#    Time: 70 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=16, MySignal= 7
+#    Time: 70 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=16, MySignal= 8
+#    Time: 80 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 80 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=17, MySignal= 8
+#    Time: 80 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=18, MySignal= 8
+#    Time: 80 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=18, MySignal= 9
+#    Time: 90 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 90 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=19, MySignal= 9
+#    Time: 90 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=20, MySignal= 9
+#    Time: 90 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=20, MySignal= 10
+#    Time: 100 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 100 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=21, MySignal= 10
+#    Time: 100 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=22, MySignal= 10
+#    Time: 100 ns  Iteration: 0  Instance: /t06_signaltb
+run
+# ** Note: MyVariable=22, MySignal= 11
+#    Time: 110 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 110 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=23, MySignal= 11
+#    Time: 110 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=24, MySignal= 11
+#    Time: 110 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=24, MySignal= 12
+#    Time: 120 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 120 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=25, MySignal= 12
+#    Time: 120 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=26, MySignal= 12
+#    Time: 120 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=26, MySignal= 13
+#    Time: 130 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 130 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=27, MySignal= 13
+#    Time: 130 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=28, MySignal= 13
+#    Time: 130 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=28, MySignal= 14
+#    Time: 140 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 140 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=29, MySignal= 14
+#    Time: 140 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=30, MySignal= 14
+#    Time: 140 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=30, MySignal= 15
+#    Time: 150 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 150 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=31, MySignal= 15
+#    Time: 150 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=32, MySignal= 15
+#    Time: 150 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=32, MySignal= 16
+#    Time: 160 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 160 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=33, MySignal= 16
+#    Time: 160 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=34, MySignal= 16
+#    Time: 160 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=34, MySignal= 17
+#    Time: 170 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 170 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=35, MySignal= 17
+#    Time: 170 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=36, MySignal= 17
+#    Time: 170 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=36, MySignal= 18
+#    Time: 180 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 180 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=37, MySignal= 18
+#    Time: 180 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=38, MySignal= 18
+#    Time: 180 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=38, MySignal= 19
+#    Time: 190 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 190 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=39, MySignal= 19
+#    Time: 190 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=40, MySignal= 19
+#    Time: 190 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=40, MySignal= 20
+#    Time: 200 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 200 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=41, MySignal= 20
+#    Time: 200 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=42, MySignal= 20
+#    Time: 200 ns  Iteration: 0  Instance: /t06_signaltb
+run
+# ** Note: MyVariable=42, MySignal= 21
+#    Time: 210 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 210 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=43, MySignal= 21
+#    Time: 210 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=44, MySignal= 21
+#    Time: 210 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=44, MySignal= 22
+#    Time: 220 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 220 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=45, MySignal= 22
+#    Time: 220 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=46, MySignal= 22
+#    Time: 220 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=46, MySignal= 23
+#    Time: 230 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 230 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=47, MySignal= 23
+#    Time: 230 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=48, MySignal= 23
+#    Time: 230 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=48, MySignal= 24
+#    Time: 240 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 240 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=49, MySignal= 24
+#    Time: 240 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=50, MySignal= 24
+#    Time: 240 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=50, MySignal= 25
+#    Time: 250 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 250 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=51, MySignal= 25
+#    Time: 250 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=52, MySignal= 25
+#    Time: 250 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=52, MySignal= 26
+#    Time: 260 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 260 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=53, MySignal= 26
+#    Time: 260 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=54, MySignal= 26
+#    Time: 260 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=54, MySignal= 27
+#    Time: 270 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 270 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=55, MySignal= 27
+#    Time: 270 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=56, MySignal= 27
+#    Time: 270 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=56, MySignal= 28
+#    Time: 280 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 280 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=57, MySignal= 28
+#    Time: 280 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=58, MySignal= 28
+#    Time: 280 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=58, MySignal= 29
+#    Time: 290 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 290 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=59, MySignal= 29
+#    Time: 290 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=60, MySignal= 29
+#    Time: 290 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=60, MySignal= 30
+#    Time: 300 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: ***** Processes Begin *****
+#    Time: 300 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=61, MySignal= 30
+#    Time: 300 ns  Iteration: 0  Instance: /t06_signaltb
+# ** Note: MyVariable=62, MySignal= 30
+#    Time: 300 ns  Iteration: 0  Instance: /t06_signaltb
+# End time: 16:29:59 on Jun 16,2021, Elapsed time: 0:32:39
+# Errors: 0, Warnings: 1
