@@ -44,6 +44,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity T10_StdLogicTb
 -- Compiling architecture sim of T10_StdLogicTb
 
+} {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T12_signedUnsignedTb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T12_signedUnsignedTb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity T12_SignedUnsignedTb
+-- Compiling architecture sim of T12_SignedUnsignedTb
+
 } {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T07_WaitOnUnintlTb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T07_WaitOnUnintlTb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
