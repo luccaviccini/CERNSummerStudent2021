@@ -28,6 +28,9 @@ begin
         SigCnt <= SigCnt + 1;
          
         -- Adding signals
+        -- The Unsigned signals counts forward whereas the 
+        -- Signed signal counts Backwards 
+        -- Since we are adding 4 bit signal with 8 bit signal the 4 bit signal is completed with 1s if signed and 0s if unsigned.
         Uns8 <= Uns8 + Uns4;
         Sig8 <= Sig8 + Sig4;
  
