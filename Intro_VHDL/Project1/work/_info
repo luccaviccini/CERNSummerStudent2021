@@ -494,7 +494,7 @@ Asim
 R82
 R66
 R67
-Z96 DEx4 work 19 t13_concurrentprocs 0 22 jf_bfQgd=fW0P5;bHi[UA3
+DEx4 work 19 t13_concurrentprocs 0 22 jf_bfQgd=fW0P5;bHi[UA3
 !i122 63
 l16
 L8 38
@@ -507,6 +507,49 @@ R92
 R93
 R94
 R95
+!i113 1
+R9
+R10
+Et14_casewhentb
+Z96 w1624289366
+R82
+R66
+R67
+!i122 64
+R1
+Z97 8C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T14_CaseWhenTb.vhd
+Z98 FC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T14_CaseWhenTb.vhd
+l0
+L7 1
+VGzhLLm]HhI^i]9Q1gSf@c0
+!s100 <YPSac]j<M`MdDhfYl:B90
+R4
+32
+Z99 !s110 1624289413
+!i10b 1
+Z100 !s108 1624289413.000000
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T14_CaseWhenTb.vhd|
+!s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T14_CaseWhenTb.vhd|
+!i113 1
+R9
+R10
+Asim
+R82
+R66
+R67
+DEx4 work 14 t14_casewhentb 0 22 GzhLLm]HhI^i]9Q1gSf@c0
+!i122 64
+l22
+L10 68
+VS[=9cdQgG_Dgz?QZ[jP^21
+!s100 :L4dlJ1E:37VLUV=6?RX83
+R4
+32
+R99
+!i10b 1
+R100
+R101
+Z102 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T14_CaseWhenTb.vhd|
 !i113 1
 R9
 R10
