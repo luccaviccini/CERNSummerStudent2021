@@ -1,40 +1,93 @@
-# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T15_Mux.vhd
+# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T16_GenericMux.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity T15_Mux
-# -- Compiling architecture rtl of T15_Mux
+# -- Compiling entity T16_GenericMux
+# -- Compiling architecture rtl of T16_GenericMux
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T15_PortMapTb.vhd
+# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T16_GenericMuxTb.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity T15_PortMapTb
-# -- Compiling architecture sim of T15_PortMapTb
-# -- Loading entity T15_Mux
+# -- Compiling entity T16_GenericMuxTb
+# -- Compiling architecture sim of T16_GenericMuxTb
+# -- Loading entity T16_GenericMux
 # 
 # 
-vsim -gui work.t15_portmaptb
-# vsim -gui work.t15_portmaptb 
-# Start time: 12:49:49 on Jun 21,2021
+vsim -gui work.t16_genericmuxtb
+# vsim -gui work.t16_genericmuxtb 
+# Start time: 14:10:05 on Jun 21,2021
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
-# Loading work.t15_portmaptb(sim)
-# Loading work.t15_mux(rtl)
-view -new wave
-# -new not supported on PE
+# Loading work.t16_genericmuxtb(sim)
+# Loading work.t16_genericmux(rtl)
 add wave -position insertpoint  \
-sim:/t15_portmaptb/Sig1 \
-sim:/t15_portmaptb/Sig2 \
-sim:/t15_portmaptb/Sig3 \
-sim:/t15_portmaptb/Sig4 \
-sim:/t15_portmaptb/Sel \
-sim:/t15_portmaptb/Output
+sim:/t16_genericmuxtb/Sig1 \
+sim:/t16_genericmuxtb/Sig2 \
+sim:/t16_genericmuxtb/Sig3 \
+sim:/t16_genericmuxtb/Sig4 \
+sim:/t16_genericmuxtb/Sel \
+sim:/t16_genericmuxtb/Output
 run
+# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T16_GenericMuxTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity T16_GenericMuxTb
+# -- Compiling architecture sim of T16_GenericMuxTb
+# -- Loading entity T16_GenericMux
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.t16_genericmuxtb(sim)
+run
+# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T16_GenericMuxTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity T16_GenericMuxTb
+# -- Compiling architecture sim of T16_GenericMuxTb
+# -- Loading entity T16_GenericMux
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T16_GenericMuxTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity T16_GenericMuxTb
+# -- Compiling architecture sim of T16_GenericMuxTb
+# -- Loading entity T16_GenericMux
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T16_GenericMuxTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity T16_GenericMuxTb
+# -- Compiling architecture sim of T16_GenericMuxTb
+# -- Loading entity T16_GenericMux
+# 
+# 
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.t16_genericmuxtb(sim)
+run
+# End time: 14:16:07 on Jun 21,2021, Elapsed time: 0:06:02
+# Errors: 0, Warnings: 1

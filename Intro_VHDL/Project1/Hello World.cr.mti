@@ -30,6 +30,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity T08_IfTb
 -- Compiling architecture sim of T08_IfTb
 
+} {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T16_GenericMux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T16_GenericMux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity T16_GenericMux
+-- Compiling architecture rtl of T16_GenericMux
+
 } {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T13_ConcurrentProcs.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T13_ConcurrentProcs.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -44,6 +53,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package STANDARD
 -- Compiling entity T05_WhileLoopTb
 -- Compiling architecture sim of T05_WhileLoopTb
+
+} {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T15_PortMapTb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T15_PortMapTb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity T15_PortMapTb
+-- Compiling architecture sim of T15_PortMapTb
+-- Loading entity T15_Mux
 
 } {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T10_StdLogicTb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T10_StdLogicTb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -89,10 +108,29 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity T01_helloworldTB
 -- Compiling architecture sim of T01_helloworldTB
 
+} {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T16_GenericMuxTb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T16_GenericMuxTb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity T16_GenericMuxTb
+-- Compiling architecture sim of T16_GenericMuxTb
+-- Loading entity T16_GenericMux
+
 } {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T09_SensitivityListTb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T09_SensitivityListTb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Compiling entity T09_SensitivityListTb
 -- Compiling architecture sim of T09_SensitivityListTb
+
+} {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T15_Mux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T15_Mux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity T15_Mux
+-- Compiling architecture rtl of T15_Mux
 
 } {} {}}
