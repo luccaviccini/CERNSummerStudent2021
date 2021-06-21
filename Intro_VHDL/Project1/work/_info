@@ -711,12 +711,12 @@ R125
 R82
 R66
 R67
-Z133 DEx4 work 16 t16_genericmuxtb 0 22 zLd29D8QV4dUKD745g6z`3
+DEx4 work 16 t16_genericmuxtb 0 22 zLd29D8QV4dUKD745g6z`3
 !i122 72
 l21
-Z134 L8 43
-Z135 VjDCm;d@8XIcVHB>nV?6LD1
-Z136 !s100 8B?gBmj2h8KnORM8hJFgj1
+L8 43
+VjDCm;d@8XIcVHB>nV?6LD1
+!s100 8B?gBmj2h8KnORM8hJFgj1
 R4
 32
 R129
@@ -724,6 +724,93 @@ R129
 R130
 R131
 R132
+!i113 1
+R9
+R10
+Et17_clockedprocesstb
+Z133 w1624304254
+R82
+R66
+R67
+!i122 88
+R1
+Z134 8C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_ClockedProcessTb.vhd
+Z135 FC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_ClockedProcessTb.vhd
+l0
+L5 1
+VVJoIio9ZniHLi1=_WfRfE1
+!s100 WiZ7JWf^3UVgojh;hWVPJ3
+R4
+32
+Z136 !s110 1624304452
+!i10b 1
+Z137 !s108 1624304452.000000
+Z138 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_ClockedProcessTb.vhd|
+Z139 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_ClockedProcessTb.vhd|
+!i113 1
+R9
+R10
+Asim
+Z140 DEx4 work 12 t17_flipflop 0 22 jDXVMeg0l2HjPITF?JdaT0
+R82
+R66
+R67
+Z141 DEx4 work 20 t17_clockedprocesstb 0 22 VJoIio9ZniHLi1=_WfRfE1
+!i122 88
+l18
+L8 44
+VbO0R>3U3H1<Y?8JI]AoV>3
+!s100 2Id:C`mIUEjMWb9ml7UG30
+R4
+32
+R136
+!i10b 1
+R137
+R138
+R139
+!i113 1
+R9
+R10
+Et17_flipflop
+Z142 w1624304313
+R82
+R66
+R67
+!i122 87
+R1
+Z143 8C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_FlipFlop.vhd
+Z144 FC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_FlipFlop.vhd
+l0
+L5 1
+VjDXVMeg0l2HjPITF?JdaT0
+!s100 j=;6EGBdPb;;EeF581R>B1
+R4
+32
+Z145 !s110 1624304441
+!i10b 1
+Z146 !s108 1624304441.000000
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_FlipFlop.vhd|
+Z148 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_FlipFlop.vhd|
+!i113 1
+R9
+R10
+Artl
+R82
+R66
+R67
+R140
+!i122 87
+l14
+L13 19
+Vb259?Y:R]`@EG@PIP:NRH2
+!s100 @>[32d2MFi0UGTcZhb3mD2
+R4
+32
+R145
+!i10b 1
+R146
+R147
+R148
 !i113 1
 R9
 R10
