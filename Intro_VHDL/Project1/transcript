@@ -1,49 +1,64 @@
-# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T09_SensitivityListTb.vhd
+# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T12_signedUnsignedTb.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 # -- Loading package STANDARD
-# -- Compiling entity T09_SensitivityListTb
-# -- Compiling architecture sim of T09_SensitivityListTb
-# ** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T09_SensitivityListTb.vhd(34): near "if": syntax error
-# ** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T09_SensitivityListTb.vhd(33): (vcom-1226) A wait statement is illegal for a process with a sensitivity list.
-# ** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T09_SensitivityListTb.vhd(40): near "process": (vcom-1576) expecting ';'.
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity T12_signedUnsignedTb
+# -- Compiling architecture sim of T12_signedUnsignedTb
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T09_SensitivityListTb.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Compiling entity T09_SensitivityListTb
-# -- Compiling architecture sim of T09_SensitivityListTb
-# ** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T09_SensitivityListTb.vhd(33): (vcom-1226) A wait statement is illegal for a process with a sensitivity list.
-# ** Note: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T09_SensitivityListTb.vhd(44): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T09_SensitivityListTb.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Compiling entity T09_SensitivityListTb
-# -- Compiling architecture sim of T09_SensitivityListTb
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T09_SensitivityListTb.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Compiling entity T09_SensitivityListTb
-# -- Compiling architecture sim of T09_SensitivityListTb
-# 
-# 
-vsim -gui work.t09_sensitivitylisttb
-# vsim -gui work.t09_sensitivitylisttb 
-# Start time: 15:25:56 on Jun 17,2021
+vsim -gui work.t12_signedunsignedtb
+# vsim -gui work.t12_signedunsignedtb 
+# Start time: 11:17:56 on Jun 21,2021
 # Loading std.standard
-# Loading work.t09_sensitivitylisttb(sim)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.t12_signedunsignedtb(sim)
+view -new wave
+# -new not supported on PE
 add wave -position insertpoint  \
-sim:/t09_sensitivitylisttb/CountUp
-add wave -position insertpoint  \
-sim:/t09_sensitivitylisttb/CountDown
+sim:/t12_signedunsignedtb/UnsCnt \
+sim:/t12_signedunsignedtb/SigCnt
 run
-# ** Note: Process A: JackPot!
-#    Time: 40 ns  Iteration: 1  Instance: /t09_sensitivitylisttb
-# ** Note: Process B: JackPot!
-#    Time: 40 ns  Iteration: 1  Instance: /t09_sensitivitylisttb
-# End time: 15:27:02 on Jun 17,2021, Elapsed time: 0:01:06
-# Errors: 0, Warnings: 6
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T12_signedUnsignedTb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity T12_SignedUnsignedTb
+# -- Compiling architecture sim of T12_SignedUnsignedTb
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.t12_signedunsignedtb(sim)
