@@ -1,4 +1,13 @@
-C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_ClockedProcessTb.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_ClockedProcessTb.vhd
+C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T18_Timer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T18_Timer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity T18_Timer
+-- Compiling architecture rtl of T18_Timer
+
+} {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_ClockedProcessTb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_ClockedProcessTb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -6,16 +15,22 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Compiling entity T17_ClockedProcessTb
 -- Compiling architecture sim of T17_ClockedProcessTb
-** Error: (vcom-11) Could not find work.t17_flipflop.
-** Error (suppressible): C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_ClockedProcessTb.vhd(20): (vcom-1195) Cannot find expanded name "work.T17_FlipFlop".
-** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_ClockedProcessTb.vhd(22): near "port_map": (vcom-1576) expecting ';'.
-** Note: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_ClockedProcessTb.vhd(55): VHDL Compiler exiting
+-- Loading entity T17_FlipFlop
 
-} {9.0 10.0 11.0 12.0} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T06_SignalTb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T06_SignalTb.vhd
+} {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T06_SignalTb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T06_SignalTb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Compiling entity T06_SignalTb
 -- Compiling architecture sim of T06_SignalTb
+
+} {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T19_Timer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T19_Timer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity T19_Timer
+-- Compiling architecture rtl of T19_Timer
 
 } {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T03_LoopTb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T03_LoopTb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -77,6 +92,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling architecture sim of T15_PortMapTb
 -- Loading entity T15_Mux
 
+} {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T18_TimerTb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T18_TimerTb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity T18_TimerTb
+-- Compiling architecture sim of T18_TimerTb
+-- Loading entity T18_Timer
+
 } {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T10_StdLogicTb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T10_StdLogicTb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -109,6 +134,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity T14_CaseWhenTb
 -- Compiling architecture sim of T14_CaseWhenTb
 
+} {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T19_ProcedureTb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T19_ProcedureTb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity T19_ProcedureTb
+-- Compiling architecture sim of T19_ProcedureTb
+-- Loading entity T19_Timer
+
 } {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T01_helloworldTB.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T01_helloworldTB.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -130,6 +165,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity T16_GenericMuxTb
 -- Compiling architecture sim of T16_GenericMuxTb
 -- Loading entity T16_GenericMux
+
+} {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_FlipFlop.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T17_FlipFlop.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity T17_FlipFlop
+-- Compiling architecture rtl of T17_FlipFlop
 
 } {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T09_SensitivityListTb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/T09_SensitivityListTb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
