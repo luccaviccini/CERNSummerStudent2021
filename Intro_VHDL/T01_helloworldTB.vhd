@@ -14,18 +14,11 @@ begin
 		
 
 	process is 
-	
 		begin 
 			report "33333";
 			wait for 10 ns;
 			report "44444";
 		end process;
-
-		
-	
-
-	
-
 
 end architecture;
 
