@@ -12,7 +12,7 @@ end entity;
 architecture sim of T10_StdLogicTb is
 
     signal Signal1 : std_logic := '0';
-    signal Signal2 : integer := 0;
+    signal Signal2 : integer   := 0;
     
 
 begin 
