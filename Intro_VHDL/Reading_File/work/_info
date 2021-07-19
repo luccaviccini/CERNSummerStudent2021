@@ -1,0 +1,120 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/VHDLwhiz/Stimulation_File/file_stim
+Eexample_file_io_tb
+Z0 w1626700723
+Z1 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 6
+Z5 dC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/Reading_File
+Z6 8C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/Reading_File/example_file_io_tb.vhd
+Z7 FC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/Reading_File/example_file_io_tb.vhd
+l0
+L10 1
+V7Da]XnCVQazh1T44aI_O;1
+!s100 g:4GdSN7A81[G?7ZiBi`O1
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1626700833
+!i10b 1
+Z10 !s108 1626700833.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/Reading_File/example_file_io_tb.vhd|
+!s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/Reading_File/example_file_io_tb.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehave
+R1
+R2
+R3
+R4
+DEx4 work 18 example_file_io_tb 0 22 7Da]XnCVQazh1T44aI_O;1
+!i122 6
+l43
+L15 85
+V>364?^`S]5;[N5XBTGG@21
+!s100 al^`?0Qk[XblJD<6Y7ElE0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+Z14 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/Reading_File/example_file_io_tb.vhd|
+!i113 1
+R12
+R13
+Eripple_carry_adder
+Z15 w1626700632
+R3
+R4
+!i122 5
+R5
+Z16 8C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/Reading_File/ripple_carry_adder.vhd
+Z17 FC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/Reading_File/ripple_carry_adder.vhd
+l0
+L4 1
+VI22jA7gAiP@lM9IB4UOAj3
+!s100 :m3;cca4g_<Z:W7b7jK=60
+R8
+32
+Z18 !s110 1626700821
+!i10b 1
+Z19 !s108 1626700821.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/Reading_File/ripple_carry_adder.vhd|
+Z21 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/Reading_File/ripple_carry_adder.vhd|
+!i113 1
+R12
+R13
+Artl
+R3
+R4
+DEx4 work 18 ripple_carry_adder 0 22 I22jA7gAiP@lM9IB4UOAj3
+!i122 5
+l32
+L17 33
+VYMW3UTlMPWn=MV6`_:9SQ1
+!s100 gZ;bW^D=0A2oFKQlHh8ic3
+R8
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Etb
+w1626700352
+R1
+R3
+R4
+!i122 4
+R5
+8C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/Reading_File/tb.vhd
+FC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/Reading_File/tb.vhd
+l0
+L6 1
+V[7h:G0L9=oI`ocD9:E2G32
+!s100 NeLo;mZHRBh<GoNajLL?G1
+R8
+32
+!s110 1626700693
+!i10b 1
+!s108 1626700693.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/Reading_File/tb.vhd|
+!s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/Reading_File/tb.vhd|
+!i113 1
+R12
+R13

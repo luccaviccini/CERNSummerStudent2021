@@ -3,7 +3,7 @@
 # 2 compiles, 0 failed with no errors.
 vsim -gui work.gfex_generic_tb
 # vsim -gui work.gfex_generic_tb 
-# Start time: 11:08:54 on Jul 19,2021
+# Start time: 11:03:57 on Jul 19,2021
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -11,6 +11,9 @@ vsim -gui work.gfex_generic_tb
 # Loading ieee.std_logic_textio(body)
 # Loading work.gfex_generic_tb(sim)
 # Loading work.gfex_generic(rtl)
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 add wave -position insertpoint  \
 sim:/gfex_generic_tb/clk \
 sim:/gfex_generic_tb/ClockFrequency \
@@ -51,23 +54,7 @@ sim:/gfex_generic_tb/TbSig29 \
 sim:/gfex_generic_tb/TbSig30 \
 sim:/gfex_generic_tb/TbSig31
 run
-# ** Failure: Read 'wait_time' failed for line: ljiashdflkjhfasdljfhsaljfdhasljfhsljfhljfajj
-#    Time: 0 ps  Iteration: 0  Process: /gfex_generic_tb/PROC_SEQUENCER File: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd
-# Break in Process PROC_SEQUENCER at C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd line 121
-run
-# ** Failure: Read 'sel' failed for line: ljiashdflkjhfasdljfhsaljfdhasljfhsljfhljfajj
-#    Time: 0 ps  Iteration: 0  Process: /gfex_generic_tb/PROC_SEQUENCER File: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd
-# Break in Process PROC_SEQUENCER at C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd line 125
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run
 restart
 run
-restart
-run
-# ** Failure: Read 'wait_time' failed for line: esse eh um segundo teste
-#    Time: 10 ns  Iteration: 0  Process: /gfex_generic_tb/PROC_SEQUENCER File: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd
-# Break in Process PROC_SEQUENCER at C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd line 121
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run
+# End time: 11:06:42 on Jul 19,2021, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 1
