@@ -1,0 +1,51 @@
+vsim -gui work.gfex_generic_tb
+# vsim -gui work.gfex_generic_tb 
+# Start time: 12:38:32 on Jul 15,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.gfex_generic_tb(sim)
+# Loading work.gfex_generic(rtl)
+add wave -position insertpoint  \
+sim:/gfex_generic_tb/DUT/clk \
+sim:/gfex_generic_tb/DUT/DataWidth \
+sim:/gfex_generic_tb/DUT/din_0 \
+sim:/gfex_generic_tb/DUT/din_1 \
+sim:/gfex_generic_tb/DUT/din_2 \
+sim:/gfex_generic_tb/DUT/din_3 \
+sim:/gfex_generic_tb/DUT/din_4 \
+sim:/gfex_generic_tb/DUT/din_5 \
+sim:/gfex_generic_tb/DUT/din_6 \
+sim:/gfex_generic_tb/DUT/din_7 \
+sim:/gfex_generic_tb/DUT/din_8 \
+sim:/gfex_generic_tb/DUT/din_9 \
+sim:/gfex_generic_tb/DUT/din_10 \
+sim:/gfex_generic_tb/DUT/din_11 \
+sim:/gfex_generic_tb/DUT/din_12 \
+sim:/gfex_generic_tb/DUT/din_13 \
+sim:/gfex_generic_tb/DUT/din_14 \
+sim:/gfex_generic_tb/DUT/din_15 \
+sim:/gfex_generic_tb/DUT/din_16 \
+sim:/gfex_generic_tb/DUT/din_17 \
+sim:/gfex_generic_tb/DUT/din_18 \
+sim:/gfex_generic_tb/DUT/din_19 \
+sim:/gfex_generic_tb/DUT/din_20 \
+sim:/gfex_generic_tb/DUT/din_21 \
+sim:/gfex_generic_tb/DUT/din_22 \
+sim:/gfex_generic_tb/DUT/din_23 \
+sim:/gfex_generic_tb/DUT/din_24 \
+sim:/gfex_generic_tb/DUT/din_25 \
+sim:/gfex_generic_tb/DUT/din_26 \
+sim:/gfex_generic_tb/DUT/din_27 \
+sim:/gfex_generic_tb/DUT/din_28 \
+sim:/gfex_generic_tb/DUT/din_29 \
+sim:/gfex_generic_tb/DUT/din_30 \
+sim:/gfex_generic_tb/DUT/din_31 \
+sim:/gfex_generic_tb/DUT/dout \
+sim:/gfex_generic_tb/DUT/sel
+run 500 ns
+quit -sim
+# End time: 19:43:49 on Jul 15,2021, Elapsed time: 7:05:17
+# Errors: 0, Warnings: 1

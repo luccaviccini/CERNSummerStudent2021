@@ -1,0 +1,78 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/VHDLwhiz/Stimulation_File/file_stim
+Efile_stim_tb
+w1626111248
+DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z0 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+Z3 dC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/StimulusLucca
+8C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/StimulusLucca/file_stim_tb.vhd
+FC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/StimulusLucca/file_stim_tb.vhd
+l0
+L8 1
+VbUbZcF=Pn6OgKEWdTTikz2
+!s100 FBz9_l6FNVL?IU8TF6K0U0
+Z4 OV;C;2020.1;71
+32
+!s110 1626111264
+!i10b 1
+!s108 1626111263.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/StimulusLucca/file_stim_tb.vhd|
+!s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/StimulusLucca/file_stim_tb.vhd|
+!i113 1
+Z5 o-work work -2002 -explicit
+Z6 tExplicit 1 CvgOpt 0
+Emux_4
+Z7 w1626110287
+R0
+R1
+R2
+!i122 0
+R3
+Z8 8C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/StimulusLucca/mux_4.vhd
+Z9 FC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/StimulusLucca/mux_4.vhd
+l0
+L5 1
+VX4Z`3:n4=<B`=nj7NW:2k3
+!s100 7aCI>?faO<8;=hi@RAXn82
+R4
+32
+Z10 !s110 1626110463
+!i10b 1
+Z11 !s108 1626110463.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/StimulusLucca/mux_4.vhd|
+Z13 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/StimulusLucca/mux_4.vhd|
+!i113 1
+R5
+R6
+Artl
+R0
+R1
+R2
+DEx4 work 5 mux_4 0 22 X4Z`3:n4=<B`=nj7NW:2k3
+!i122 0
+l21
+L20 22
+VA0CVBe2Nn=PncH?8JANb]0
+!s100 XCoRNa2z8lg=4:D?25JEC2
+R4
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R5
+R6

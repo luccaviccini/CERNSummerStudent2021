@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
  
 entity T16_GenericMux  is
-generic(DataWidth : integer);
+generic(DataWidth : integer := 8);
     port(
     -- Inputs
     Sig1 : in unsigned(DataWidth-1 downto 0);
