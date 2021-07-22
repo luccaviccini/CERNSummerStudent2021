@@ -28,8 +28,8 @@ type reg_soma is array (natural range <>) of std_logic_vector(DataWidth + 2 down
 
 signal cycle : integer := 0;
 
-signal big6 : reg_comp(0 to 1);
-signal sum6 : reg_soma(0 to 1);
+signal big6 : reg_comp(0 to 1) := (others=>(others=>'0'));
+signal sum6 : reg_soma(0 to 1) := (others=>(others=>'0'));
 
 
 
@@ -42,10 +42,8 @@ begin
 		if rising_edge(clk) then
 			case eta_ind is 			
 				when "000" =>
-					big6(0) <= gt_inp0;
-					sum6(0) <= ('0' & '0' & '0' & gt_inp0);
-					big6(1)	<= gt_inp1;
-					sum6(1) <= ('0' & '0' & '0' & gt_inp1);	
+					big6(0) <= gt_inp0;				sum6(0) <= ('0' & '0' & '0' & gt_inp0);
+					big6(1)	<= gt_inp1;				sum6(1) <= ('0' & '0' & '0' & gt_inp1);	
 					
 				when "110" =>
 					d_out0 <= big6(0);

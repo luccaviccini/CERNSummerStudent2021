@@ -1,4 +1,4 @@
-C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd
+C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -6,8 +6,77 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Compiling entity gfex_generic
 -- Compiling architecture rtl of gfex_generic
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(167): Target type ieee.std_logic_1164.STD_LOGIC_VECTOR in variable assignment is different from expression type reg_soma.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(167): (vcom-1583) Illegal type converson from 'std.STANDARD.INTEGER' to 'reg_soma' (numeric to array).
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(173): Illegal target for signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(173): (vcom-1136) Unknown identifier "dout".
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(175): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(175): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(176): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(176): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(177): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(177): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(178): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(178): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(179): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(179): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(180): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(180): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(181): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(181): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(182): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(182): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(183): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(183): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(184): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(184): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(185): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(185): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(186): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(186): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(187): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(187): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(188): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(188): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(189): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(189): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(190): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(190): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(191): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(191): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(192): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(192): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(193): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(193): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(194): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(194): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(195): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(195): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(196): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(196): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(197): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(197): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(198): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(198): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(199): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(199): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(200): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(200): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(201): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(201): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(202): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(202): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(203): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(203): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(204): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(204): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(205): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(205): Bad right hand side (infix expression) in signal assignment.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(206): (vcom-1581) No feasible entries for infix operator '+'.
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(206): Bad right hand side (infix expression) in signal assignment.
+** Note: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd(210): VHDL Compiler exiting
 
-} {} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd
+} {9.0 77.0} {}} C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -17,5 +86,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading entity gfex_generic
 -- Compiling entity gfex_generic_tb
 -- Compiling architecture sim of gfex_generic_tb
+** Error: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd(96): (vcom-1484) Unknown formal identifier "dout".
+** Note: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd(303): VHDL Compiler exiting
 
-} {} {}}
+} {11.0 12.0} {}}

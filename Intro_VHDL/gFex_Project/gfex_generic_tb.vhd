@@ -14,7 +14,7 @@ architecture sim of gfex_generic_tb is
 	constant ClockFrequency : integer := 1000e6; -- 1 GHz
     constant ClockPeriod    : time    := 1000 ms / ClockFrequency; -- 10 ns
 	
-	signal clk : std_logic := '1';
+	signal clk : std_logic := '0';
 
     constant DataWidth16 : integer := 16;
 	signal TbSig0 : std_logic_vector(DataWidth16-1 downto 0);
@@ -52,7 +52,7 @@ architecture sim of gfex_generic_tb is
 	
     signal TbSel  : std_ulogic_vector(2 downto 0);
 
-    signal TbOutput : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbOutput : std_logic_vector(DataWidth16-1 downto 0) :=  x"AAAA";
 
 
 begin

@@ -77,3 +77,28 @@ restart
 run
 restart
 run
+# Compile of gfex1.vhd was successful.
+# Compile of gfex1_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.gfex1_tb(sim)
+# Loading work.gfex1(rtl)
+run
+# Compile of gfex1.vhd failed with 29 errors.
+# Compile of gfex1_tb.vhd was successful.
+# 2 compiles, 1 failed with 29 errors.
+# Compile of gfex1.vhd failed with 29 errors.
+# Compile of gfex1_tb.vhd was successful.
+# 2 compiles, 1 failed with 29 errors.
+# Compile of gfex1.vhd failed with 2 errors.
+# Compile of gfex1_tb.vhd was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of gfex1.vhd was successful.
+# Compile of gfex1_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.gfex1_tb(sim)
+# Loading work.gfex1(rtl)
+run

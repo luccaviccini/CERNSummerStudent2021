@@ -10,92 +10,92 @@ z2
 cModel Technology
 dC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/Denis
 Egfex_generic
-Z0 w1626219431
+Z0 w1626913404
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 19
+!i122 53
 Z4 dC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project
 Z5 8C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd
 Z6 FC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd
 l0
 L5 1
-V9i6OXahN8J?O;N=1IJ;6C3
-!s100 J6fzNi[4JQji[@VZMMTe=0
+VKKnZ2EGLL59cKzoHKanBc3
+!s100 >_UI:Oee[K3RzJJ5RZ?OS0
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1626703727
+!s110 1626913408
 !i10b 1
-Z9 !s108 1626703727.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd|
-Z11 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd|
+!s108 1626913408.000000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd|
+Z9 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic.vhd|
 !i113 1
-Z12 o-work work -2002 -explicit
-Z13 tExplicit 1 CvgOpt 0
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1 CvgOpt 0
 Artl
 R1
 R2
 R3
-Z14 DEx4 work 12 gfex_generic 0 22 9i6OXahN8J?O;N=1IJ;6C3
-!i122 19
+Z12 DEx4 work 12 gfex_generic 0 22 9i6OXahN8J?O;N=1IJ;6C3
+!i122 41
 l49
 L48 26
 VLjn0Y;_NmdODUMoe_f2>11
 !s100 h9M>@FCDQbg_8dZ`6FL_O0
 R7
 32
-R8
+Z13 !s110 1626876961
 !i10b 1
+!s108 1626876960.000000
+R8
 R9
+!i113 1
 R10
 R11
-!i113 1
-R12
-R13
 Egfex_generic_tb
-Z15 w1626226614
-R14
-Z16 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+Z14 w1626705114
+DEx4 work 12 gfex_generic 0 22 KKnZ2EGLL59cKzoHKanBc3
+Z15 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
 R1
 R2
 R3
-!i122 20
+!i122 47
 R4
-Z17 8C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd
-Z18 FC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd
+Z16 8C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd
+Z17 FC:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd
 l0
 L9 1
 VXhiU?EHQTn>hNX6_G^Ml21
 !s100 4SLz_i_M1zh;bfdLhGMXY2
 R7
 32
-Z19 !s110 1626703728
+!s110 1626884840
 !i10b 1
-Z20 !s108 1626703728.000000
-Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd|
-Z22 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd|
+!s108 1626884839.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd|
+Z19 !s107 C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex_generic_tb.vhd|
 !i113 1
-R12
-R13
+R10
+R11
 Asim
-R14
-R16
+R12
+R15
 R1
 R2
 R3
-Z23 DEx4 work 15 gfex_generic_tb 0 22 XhiU?EHQTn>hNX6_G^Ml21
-!i122 20
+DEx4 work 15 gfex_generic_tb 0 22 XhiU?EHQTn>hNX6_G^Ml21
+!i122 42
 l58
-Z24 L12 292
-Z25 VThW=k<Z@mmJ]2@g3fb<];3
-Z26 !s100 _I>jlQZLP2FR>f:hBN3ab2
+L12 292
+ViV=Z56LfI[9P4X:i0:;G@2
+!s100 Z62FO<5:M^WB;G[XYCdIO2
 R7
 32
-R19
-!i10b 1
-R20
-R21
-R22
-!i113 1
-R12
 R13
+!i10b 1
+!s108 1626876961.000000
+R18
+R19
+!i113 1
+R10
+R11
