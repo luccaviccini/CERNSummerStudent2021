@@ -16,9 +16,13 @@ architecture sim of gfex1_tb is
 	
 	signal clk : std_logic := '1';
     constant DataWidth16 : integer := 16;
-	signal TbSig0 : std_logic_vector(DataWidth16-1 downto 0);	
+	signal TbSig0 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbSig1 : std_logic_vector(DataWidth16-1 downto 0);	
     signal TbSel  : std_ulogic_vector(2 downto 0);
-    signal TbOutput : std_logic_vector(DataWidth16-1 downto 0) :=  x"AAAA";
+    signal TbOutput0 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOutput1 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOutBigSum : std_logic_vector(DataWidth16 + 2 downto 0);
+	
 
 
 begin
@@ -26,9 +30,12 @@ begin
     generic map(DataWidth => DataWidth16)
     port map(
 		clk 	  => clk,
-        gt_inp1   => TbSig0, 
+        gt_inp0   => TbSig0,
+		gt_inp1   => TbSig1,		
         eta_ind   => TbSel,
-        d_out     => TbOutput);
+        d_out0     => TbOutput0,
+		d_out1     => TbOutput1,
+		biggest_sum => TbOutBigSum);
 
 	-- Process for generating the clock
 	clk <= not clk after ClockPeriod/2;
@@ -64,6 +71,11 @@ begin
         assert ok
             report "Read 'din_0' failed for line: " & text_line.all severity failure;
         TbSig0 <= data;
+		
+		hread(text_line, data, ok);
+        assert ok
+            report "Read 'din_0' failed for line: " & text_line.all severity failure;
+        TbSig1 <= data;
 
 		wait for wait_time;
 		-- Print trailing comment to console, if any
