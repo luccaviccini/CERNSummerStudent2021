@@ -1,0 +1,83 @@
+# Compile of gfex_generic_tb.vhd failed with 2 errors.
+# Compile of gfex_generic.vhd was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of gfex_generic_tb.vhd was successful.
+# Compile of gfex_generic.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of gfex_generic_tb.vhd was successful.
+# Compile of gfex_generic_tb.vhd was successful.
+# Compile of gfex_generic.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.gfex_generic_tb
+# vsim -gui work.gfex_generic_tb 
+# Start time: 19:02:52 on Jul 23,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.gfex_generic_tb(sim)
+# Loading work.gfex_generic(rtl)
+# ** Warning: (vsim-7) Failed to open VHDL file "C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/stimulus2.txt" in rb mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ps  Iteration: 0  Instance: /gfex_generic_tb
+# Compile of gfex_generic_tb.vhd was successful.
+# Compile of gfex_generic.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/gfex_generic_tb/DUT/clk \
+sim:/gfex_generic_tb/DUT/DataWidth \
+sim:/gfex_generic_tb/DUT/din_0 \
+sim:/gfex_generic_tb/DUT/din_1 \
+sim:/gfex_generic_tb/DUT/din_2 \
+sim:/gfex_generic_tb/DUT/din_3 \
+sim:/gfex_generic_tb/DUT/din_4 \
+sim:/gfex_generic_tb/DUT/din_5 \
+sim:/gfex_generic_tb/DUT/din_6 \
+sim:/gfex_generic_tb/DUT/din_7 \
+sim:/gfex_generic_tb/DUT/din_8 \
+sim:/gfex_generic_tb/DUT/din_9 \
+sim:/gfex_generic_tb/DUT/din_10 \
+sim:/gfex_generic_tb/DUT/din_11 \
+sim:/gfex_generic_tb/DUT/din_12 \
+sim:/gfex_generic_tb/DUT/din_13 \
+sim:/gfex_generic_tb/DUT/din_14 \
+sim:/gfex_generic_tb/DUT/din_15 \
+sim:/gfex_generic_tb/DUT/din_16 \
+sim:/gfex_generic_tb/DUT/din_17 \
+sim:/gfex_generic_tb/DUT/din_18 \
+sim:/gfex_generic_tb/DUT/din_19 \
+sim:/gfex_generic_tb/DUT/din_20 \
+sim:/gfex_generic_tb/DUT/din_21 \
+sim:/gfex_generic_tb/DUT/din_22 \
+sim:/gfex_generic_tb/DUT/din_23 \
+sim:/gfex_generic_tb/DUT/din_24 \
+sim:/gfex_generic_tb/DUT/din_25 \
+sim:/gfex_generic_tb/DUT/din_26 \
+sim:/gfex_generic_tb/DUT/din_27 \
+sim:/gfex_generic_tb/DUT/din_28 \
+sim:/gfex_generic_tb/DUT/din_29 \
+sim:/gfex_generic_tb/DUT/din_30 \
+sim:/gfex_generic_tb/DUT/din_31 \
+sim:/gfex_generic_tb/DUT/dout \
+sim:/gfex_generic_tb/DUT/sel
+run
+# ** Fatal: (vsim-7) Failed to open VHDL file "C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/stimulus2.txt" in rb mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ps  Iteration: 0  Process: /gfex_generic_tb/PROC_SEQUENCER File: C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gfex_project/gfex_generic/gfex_generic_tb.vhd
+# Fatal error in Process PROC_SEQUENCER at C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gfex_project/gfex_generic/gfex_generic_tb.vhd line 112
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gfex_project/gfex_generic/gfex_generic_tb.vhd 112 Process PROC_SEQUENCER
+# 
+# Compile of gfex_generic_tb.vhd was successful.
+# Compile of gfex_generic.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.gfex_generic_tb(sim)
+# Loading work.gfex_generic(rtl)
+run
+# End time: 19:07:37 on Jul 23,2021, Elapsed time: 0:04:45
+# Errors: 0, Warnings: 1

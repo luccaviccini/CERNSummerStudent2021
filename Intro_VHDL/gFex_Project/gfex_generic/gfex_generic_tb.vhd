@@ -1,22 +1,22 @@
 library ieee;
-library STD;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use std.textio.all;
 use ieee.std_logic_textio.all;
+
 use work.gfex_generic;
 
-entity gfex_generic_procedure_tb is
+entity gfex_generic_tb is
 end entity;
 
-architecture sim of gfex_generic_procedure_tb is
+architecture sim of gfex_generic_tb is
 
 	constant ClockFrequency : integer := 1000e6; -- 1 GHz
     constant ClockPeriod    : time    := 1000 ms / ClockFrequency; -- 10 ns
 	
-	signal clk : std_logic := '0';
+	signal clk : std_logic := '1';
 
-    constant DataWidth16 : integer := 4;
+    constant DataWidth16 : integer := 16;
 	signal TbSig0 : std_logic_vector(DataWidth16-1 downto 0);
 	signal TbSig1 : std_logic_vector(DataWidth16-1 downto 0);
 	signal TbSig2 : std_logic_vector(DataWidth16-1 downto 0);
@@ -98,16 +98,16 @@ begin
 	-- Process for generating the clock
 	clk <= not clk after ClockPeriod/2;
 	
-	
-	
 	PROC_SEQUENCER : process
-	file text_file     : text open read_mode is "C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/stimulus2.txt";
+	file text_file     : text open read_mode is "C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gfex_project/gfex_generic/stimulus2.txt";
 	variable text_line : line;
 	variable ok        : boolean;
 	variable char      : character;
 	variable wait_time : time;
 	variable selector  : std_ulogic_vector(2 downto 0);
 	variable data      : std_logic_vector(DataWidth16-1 downto 0);
+
+	begin
 
 	while not endfile(text_file) loop
 		readline(text_file, text_line);
@@ -124,7 +124,7 @@ begin
 		assert ok
 		  report "Read 'sel' failed for line: " & text_line.all severity failure;
 		TbSel <= selector;
-	 ---------- reading actual values that will go in the process
+	 
         hread(text_line, data, ok);
         assert ok
             report "Read 'din_0' failed for line: " & text_line.all severity failure;

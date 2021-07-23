@@ -4,102 +4,170 @@ use ieee.numeric_std.all;
 use std.textio.all;
 use ieee.std_logic_textio.all;
 
-use work.gfex_generic;
 
-entity gfex_generic_tb is
+entity gfex32_tb is
 end entity;
 
-architecture sim of gfex_generic_tb is
-
-	constant ClockFrequency : integer := 1000e6; -- 1 GHz
-    constant ClockPeriod    : time    := 1000 ms / ClockFrequency; -- 10 ns
+architecture sim of gfex32_tb is
+	-- Properties of the clockclock -- 
+  	--constant ClockFrequency : integer := 1000e6; -- 1 GHz
+    constant ClockPeriod    : time    := 1 ns; 
+	signal clk : std_logic := '1';
 	
-	signal clk : std_logic := '0';
-
     constant DataWidth16 : integer := 16;
-	signal TbSig0 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig1 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig2 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig3 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig4 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig5 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig6 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig7 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig8 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig9 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig10 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig11 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig12 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig13 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig14 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig15 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig16 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig17 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig18 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig19 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig20 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig21 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig22 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig23 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig24 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig25 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig26 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig27 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig28 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig29 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig30 : std_logic_vector(DataWidth16-1 downto 0);
-	signal TbSig31 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig0 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig1 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig2 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig3 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig4 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig5 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig6 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig7 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig8 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig9 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig10 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig11 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig12 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig13 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig14 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig15 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig16 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig17 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig18 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig19 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig20 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig21 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig22 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig23 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig24 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig25 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig26 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig27 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig28 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig29 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig30 : std_logic_vector(DataWidth16-1 downto 0);
+    signal TbSig31 : std_logic_vector(DataWidth16-1 downto 0);	
 	
     signal TbSel  : std_ulogic_vector(2 downto 0);
-
-    signal TbOutput : std_logic_vector(DataWidth16-1 downto 0) :=  x"AAAA";
+	
+	signal TbOut0 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut1 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut2 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut3 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut4 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut5 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut6 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut7 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut8 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut9 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut10 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut11 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut12 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut13 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut14 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut15 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut16 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut17 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut18 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut19 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut20 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut21 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut22 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut23 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut24 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut25 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut26 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut27 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut28 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut29 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut30 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOut31 : std_logic_vector(DataWidth16-1 downto 0);
+	signal TbOutBigSum : std_logic_vector(DataWidth16 + 2 downto 0);
+	
 
 
 begin
-    DUT : entity work.gfex_generic(rtl)
+    DUT : entity work.gfex32(rtl)
     generic map(DataWidth => DataWidth16)
     port map(
-		clk 	=> clk,
-        din_0   => TbSig0,
-        din_1   => TbSig1,
-        din_2   => TbSig2,
-        din_3   => TbSig3,
-        din_4   => TbSig4,
-        din_5   => TbSig5,
-        din_6   => TbSig6,
-        din_7   => TbSig7,
-        din_8   => TbSig8,
-        din_9   => TbSig9,
-        din_10   => TbSig10,
-        din_11   => TbSig11,
-        din_12   => TbSig12,
-        din_13   => TbSig13,
-        din_14   => TbSig14,
-        din_15   => TbSig15,
-        din_16   => TbSig16,
-        din_17   => TbSig17,
-        din_18   => TbSig18,
-        din_19   => TbSig19,
-        din_20   => TbSig20,
-        din_21   => TbSig21,
-        din_22   => TbSig22,
-        din_23   => TbSig23,
-        din_24   => TbSig24,
-        din_25   => TbSig25,
-        din_26   => TbSig26,
-        din_27   => TbSig27,
-        din_28   => TbSig28,
-        din_29   => TbSig29,
-        din_30   => TbSig30,
-        din_31   => TbSig31,
-        sel     => TbSel,
-        dout    => TbOutput);
+		-- Associating Module signals with TB signals 
+		clk 	  => clk,
+        gt_inp0   => TbSig0,
+        gt_inp1   => TbSig1,
+        gt_inp2   => TbSig2,
+        gt_inp3   => TbSig3,
+        gt_inp4   => TbSig4,
+        gt_inp5   => TbSig5,
+        gt_inp6   => TbSig6,
+        gt_inp7   => TbSig7,
+        gt_inp8   => TbSig8,
+        gt_inp9   => TbSig9,
+        gt_inp10   => TbSig10,
+        gt_inp11   => TbSig11,
+        gt_inp12   => TbSig12,
+        gt_inp13   => TbSig13,
+        gt_inp14   => TbSig14,
+        gt_inp15   => TbSig15,
+        gt_inp16   => TbSig16,
+        gt_inp17   => TbSig17,
+        gt_inp18   => TbSig18,
+        gt_inp19   => TbSig19,
+        gt_inp20   => TbSig20,
+        gt_inp21   => TbSig21,
+        gt_inp22   => TbSig22,
+        gt_inp23   => TbSig23,
+        gt_inp24   => TbSig24,
+        gt_inp25   => TbSig25,
+        gt_inp26   => TbSig26,
+        gt_inp27   => TbSig27,
+        gt_inp28   => TbSig28,
+        gt_inp29   => TbSig29,
+        gt_inp30   => TbSig30,
+        gt_inp31   => TbSig31,
+		
+        eta_ind   => TbSel,	
+		
+        d_out0   => TbOut0,
+        d_out1   => TbOut1,
+        d_out2   => TbOut2,
+        d_out3   => TbOut3,
+        d_out4   => TbOut4,
+        d_out5   => TbOut5,
+        d_out6   => TbOut6,
+        d_out7   => TbOut7,
+        d_out8   => TbOut8,
+        d_out9   => TbOut9,
+        d_out10   => TbOut10,
+        d_out11   => TbOut11,
+        d_out12   => TbOut12,
+        d_out13   => TbOut13,
+        d_out14   => TbOut14,
+        d_out15   => TbOut15,
+        d_out16   => TbOut16,
+        d_out17   => TbOut17,
+        d_out18   => TbOut18,
+        d_out19   => TbOut19,
+        d_out20   => TbOut20,
+        d_out21   => TbOut21,
+        d_out22   => TbOut22,
+        d_out23   => TbOut23,
+        d_out24   => TbOut24,
+        d_out25   => TbOut25,
+        d_out26   => TbOut26,
+        d_out27   => TbOut27,
+        d_out28   => TbOut28,
+        d_out29   => TbOut29,
+        d_out30   => TbOut30,
+        d_out31   => TbOut31,		
+
+
+		biggest_sum => TbOutBigSum);
 
 	-- Process for generating the clock
 	clk <= not clk after ClockPeriod/2;
 	
 	PROC_SEQUENCER : process
-	file text_file     : text open read_mode is "C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/stimulus2.txt";
+	file text_file     : text open read_mode is "C:/Users/Lucca/Documents/GitHub/CERNSummerStudent2021/Intro_VHDL/gFex_Project/gfex1/gfex32/stimulus32.txt";
 	variable text_line : line;
 	variable ok        : boolean;
 	variable char      : character;
