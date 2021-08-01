@@ -1,0 +1,50 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_unsigned.all;
+
+
+entity jet_engine is 
+generic(DataWidth : integer := 16);
+port (
+		-- Inputs
+		signal clk : in std_logic; -- frequency/ period specidied in testbench
+		signal je_in : in std_logic_vector(DataWidth - 1 downto 0);
+		signal eta_ind  : in  std_logic_vector(2 downto 0);
+		
+		-- Outputs of module
+		signal biggest_gt : out std_logic_vector(DataWidth - 1 downto 0);
+		signal eta_ind_out : out std_logic_vector(2 downto 0));
+		
+end jet_engine;	
+
+architecture rtl of jet_engine is
+
+signal cycle : integer := 0;
+
+begin 
+	process(clk) is
+	variable big6 : std_logic_vector(DataWidth - 1 downto 0):= "0000000000000000";
+	variable  big_eta : std_logic_vector(2 downto 0) := "XXX";
+	begin 
+		if rising_edge(clk) then
+			case eta_ind is 
+				when "000" => -- beginning of the cycle
+					big6 := je_in;
+					big_eta := eta_ind;
+				when "110" =>
+					biggest_gt <= big6;
+					eta_ind_out <= big_eta; 
+					cycle <= cycle + 1;
+				when "111" => -- never going to happen
+					biggest_gt <=  "X";
+	                eta_ind_out <= "XXX";
+				when others =>
+					if(je_in > big6) then 
+						big6 := je_in;
+						big_eta := eta_ind;
+					end if;
+			end case;			
+		end if;
+	end process;
+end architecture;	

@@ -1,0 +1,57 @@
+# Compile of gfex_2.vhd was successful.
+# Compile of gfex_2_tb.vhd was successful.
+# Compile of jet_engine.vhd was successful.
+# Compile of jet_engine_tb.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.jet_engine_tb
+# vsim -gui work.jet_engine_tb 
+# Start time: 14:58:00 on Jul 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.jet_engine_tb(sim)
+# Loading work.jet_engine(rtl)
+vsim -gui work.gfex_2_tb
+# End time: 14:58:18 on Jul 29,2021, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 2
+# vsim -gui work.gfex_2_tb 
+# Start time: 14:58:18 on Jul 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.gfex_2_tb(sim)
+# Loading work.gfex_2(rtl)
+# Loading work.jet_engine(rtl)
+add wave -position insertpoint  \
+sim:/gfex_2_tb/gfex/clk \
+sim:/gfex_2_tb/gfex/je_in0 \
+sim:/gfex_2_tb/gfex/je_in1 \
+sim:/gfex_2_tb/gfex/eta_ind \
+sim:/gfex_2_tb/gfex/biggest_gt_out \
+sim:/gfex_2_tb/gfex/eta_ind_out \
+sim:/gfex_2_tb/gfex/jet_engine_number \
+sim:/gfex_2_tb/gfex/cycle \
+sim:/gfex_2_tb/gfex/biggest_gt \
+sim:/gfex_2_tb/gfex/eta
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 0  Instance: /gfex_2_tb/gfex
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 0  Instance: /gfex_2_tb/gfex
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 0  Instance: /gfex_2_tb/gfex
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 ns  Iteration: 0  Instance: /gfex_2_tb/gfex
+# End time: 16:30:55 on Jul 29,2021, Elapsed time: 1:32:37
+# Errors: 0, Warnings: 3
